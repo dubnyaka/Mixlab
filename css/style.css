@@ -44,9 +44,13 @@ button {
 }
 
 .header {
-    background-color: #FEF7E5;
     min-height: 100vh;
     z-index: -2;
+    background:
+    url(../images/header__left-decorator.png) 0 93px no-repeat,
+    url(../images/header__right-decorator.png) 100% 93px no-repeat,
+    url(../images/header__middle-decorator.png) calc(50% + 127px) 100% no-repeat,
+    #FEF7E5;
 }
 
 .header__top{
@@ -106,6 +110,7 @@ button {
     width: 150px;
     margin: 0;
     margin-left: 33px;
+    margin-right: 40px;
 }
 
 .menu-right__login-link {
@@ -147,26 +152,4 @@ button {
     line-height: 19px;
     padding: 15px 40px;
     border-radius: 24px;
-}
-
-
-.header-decorators__left{
-    position: absolute;
-    left: 0;
-    top: 93px;
-    z-index: -1;
-}
-
-.header-decorators__middle{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    z-index: -1;
-}
-
-.header-decorators__right{
-    position: absolute;
-    right: 0;
-    top: 89px;
-    z-index: -1;
 }
