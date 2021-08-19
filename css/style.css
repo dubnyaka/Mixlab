@@ -213,14 +213,14 @@ button {
 }
 
 .how-it-works {
-    background: #FAF9F6;
-    min-height: 653px;
+    background: #FAF9F6;    
 }
 
 .how-it-works .container{
+    min-height: 653px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
