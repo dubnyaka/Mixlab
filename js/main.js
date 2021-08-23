@@ -4,10 +4,21 @@ $(function(){
             // options
             cellAlign: 'center',
             initialIndex: 1,
-            contain: true,
             pageDots: false,
             prevNextButtons: false,
-            autoPlay: true,
+            // wrapAround: true,
+            // autoPlay: true,
+          });
+    });
+
+    $(document).ready(function(){       
+        $('.article-carousel').flickity({
+            // options
+            cellAlign: 'center',
+            groupCells: 2,
+            pageDots: false,
+            prevNextButtons: false,
+            // autoPlay: true,
           });
     });
 
