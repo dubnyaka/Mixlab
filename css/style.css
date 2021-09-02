@@ -629,6 +629,24 @@ button.medium-btn {
     .menu-left__list .menu-right__try-btn {
         margin: 0;
     }
+
+    .how-it-works-cards{
+        flex-direction: column;
+    }
+
+    .how-it-works-cards__card+.how-it-works-cards__card {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+
+    .how-it-works .container .how-it-works__btn{
+        margin: 40px 0;        
+    }
+
+    .how-it-works .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -752,5 +770,21 @@ button.medium-btn {
     }
     .header__logo {
         top: 17px;
+    }
+
+    .how-it-works-cards__card img{
+        width: 190px;
+    }
+
+    .how-it-works-cards__title{
+        font-size: 20px;
+    }
+
+    .how-it-works-cards__text{
+        font-size: 12px;
+    }
+
+    .how-it-works__title{
+        font-size: 36px;
     }
 }
