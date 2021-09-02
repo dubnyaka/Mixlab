@@ -631,6 +631,25 @@ button.medium-btn {
     }
 }
 
+@media (max-width: 1020px) {
+    .about .container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 58px;
+    }
+    .about__title-img {
+        display: none;
+    }
+    .about__title-text {
+        margin-bottom: 40px;
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .about__list {
+        max-width: 530px;
+    }
+}
+
 @media (max-width: 780px) {
     .header {
         background: url(../images/header__left-decorator.png) 0 93px no-repeat, url(../images/header__right-decorator.png) 100% 93px no-repeat, url(../images/header__middle-decorator.png) 50% 100% no-repeat, #FEF7E5;
@@ -673,6 +692,36 @@ button.medium-btn {
         line-height: 24px;
         margin-bottom: 9px;
     }
+    .about__title-text {
+        margin-bottom: 17px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .about__list-item-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .about__list hr {
+        margin: 15px 0;
+    }
+    .about__list-item-text {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .about__postscriptum {
+        font-size: 8px;
+        line-height: 23px;
+    }
+
+    .about{
+        min-height: 430px;
+    }
+
+    .about .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -695,17 +744,13 @@ button.medium-btn {
     .header__top {
         margin-bottom: 65px;
     }
-
     .menu-right {
         margin-top: 18px;
     }
-
-    .header__top{
+    .header__top {
         height: 70px;
     }
-
-    .header__logo{
+    .header__logo {
         top: 17px;
     }
-
 }
