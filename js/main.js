@@ -6,6 +6,7 @@ $(function(){
             initialIndex: 1,
             pageDots: false,
             prevNextButtons: false,
+            setGallerySize: false
             // wrapAround: true,
             // autoPlay: true,
           });

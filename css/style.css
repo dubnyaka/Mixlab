@@ -393,10 +393,29 @@ button.medium-btn {
     margin-left: 40px;
 }
 
+.carousel__text{
+    overflow: auto;
+}
+
+.carousel__text::-webkit-scrollbar {
+    width: 3px;
+}
+
+.carousel__text::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.carousel__text::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
 .carousel__img {
     width: 100%;
     height: 100%;
     flex-grow: 1;
+    max-width: 238px;
+    max-height: 238px;
 }
 
 .country {
@@ -686,6 +705,36 @@ button.medium-btn {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .carousel-cell {
+        height: 100%;
+        width: 95%;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 85px 40px;
+    }
+    .carousel {
+        height: 500px;
+    }
+    .carousel__text-block {
+        margin-left: 0;
+    }
+    .carousel__img {
+        width: 40%;
+        height: auto;
+        flex-grow: 0;
+        min-width: 170px;
+        margin-bottom: 30px;
+        max-width: 238px;
+    }
+    .reviews::before {
+        display: none;
+    }
+    .carousel__text {
+        font-size: 11px;
+        max-height: 93px;
     }
 }
 
